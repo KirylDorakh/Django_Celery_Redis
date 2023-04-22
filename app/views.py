@@ -1,6 +1,7 @@
+from .task import text
 from django.shortcuts import render
 
-from .task import text
+
 
 
 def index(request):
