@@ -1,0 +1,56 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2212
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2263
+"GET /index/ HTTP/1.1" 200 147
+/Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /
+WARNING "GET / HTTP/1.1" 404 2212
+INFO "GET /index/ HTTP/1.1" 200 147
+INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 11:56:34,798 INFO Watching for file changes with StatReloader
+2023-04-23 11:56:36,474 WARNING Not Found: /
+2023-04-23 11:56:36,475 WARNING "GET / HTTP/1.1" 404 2212
+2023-04-23 11:56:40,363 INFO "GET /index/ HTTP/1.1" 200 147
+2023-04-23 12:00:16,258 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/app/models.py changed, reloading.
+2023-04-23 12:08:06,641 INFO Watching for file changes with StatReloader
+2023-04-23 12:08:13,893 INFO "GET /home/ HTTP/1.1" 200 165
+2023-04-23 12:08:44,845 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:09:42,189 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/app/views.py changed, reloading.
+2023-04-23 12:09:42,476 INFO Watching for file changes with StatReloader
+2023-04-23 12:10:13,396 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:10:32,309 INFO "GET /index/ HTTP/1.1" 200 147
+2023-04-23 12:10:37,691 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:11:50,350 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/app/views.py changed, reloading.
+2023-04-23 12:14:45,060 INFO Watching for file changes with StatReloader
+2023-04-23 12:15:39,527 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 12:15:39,806 INFO Watching for file changes with StatReloader
+2023-04-23 12:15:46,880 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:15:50,724 INFO "GET /index/ HTTP/1.1" 200 147
+2023-04-23 12:16:14,043 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 12:16:14,306 INFO Watching for file changes with StatReloader
+2023-04-23 12:16:24,600 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 12:16:24,862 INFO Watching for file changes with StatReloader
+2023-04-23 12:16:29,380 INFO "GET /index/ HTTP/1.1" 200 147
+2023-04-23 12:16:33,806 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:16:34,344 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:16:34,513 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:16:34,674 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:16:34,847 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:16:35,170 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:16:35,339 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:16:40,202 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 12:16:40,539 INFO Watching for file changes with StatReloader
+2023-04-23 12:17:07,377 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 12:17:07,682 INFO Watching for file changes with StatReloader
+2023-04-23 12:18:28,242 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 12:18:28,582 INFO Watching for file changes with StatReloader
+2023-04-23 12:18:35,024 INFO "GET /home/ HTTP/1.1" 200 175
+2023-04-23 12:19:29,525 INFO /Users/kiryldorakh/projects/vebinars/backend/D7_Celery_Redis_docker/config/settings.py changed, reloading.
+2023-04-23 12:21:50,141 INFO Watching for file changes with StatReloader
+2023-04-23 12:21:51,598 INFO "GET /index/ HTTP/1.1" 200 147
+2023-04-23 12:21:55,676 INFO "GET /home/ HTTP/1.1" 200 175

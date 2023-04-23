@@ -123,3 +123,43 @@ CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TASK_SERIALIZER = 'json'
+
+# vebinar Logging
+LOGGING = {
+    'version': 1,
+    'disable_existing_logger': False,
+    'loggers': {
+        'django': {
+            'handlers': ['app', 'console'],
+            'level': 'DEBUG',
+        }
+    },
+    'handlers': {
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+        },
+        'app': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': 'debug.log',
+            'formatter': 'myformatter',
+            'filters': ['require_debug_true'],
+        }
+    },
+    'formatters': {
+        'myformatter': {
+            'format': '{asctime} {levelname} {message}',
+            'datetime': '%Y.%m.%d %H:%M:%S',
+            'style': '{',
+        },
+    },
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse',
+        },
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+}
